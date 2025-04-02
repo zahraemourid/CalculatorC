@@ -17,7 +17,6 @@ int main(int argc, const char * argv[]) {
         scanf("%f%c%f", &operant1, &operateur, &operant2);
     }
     
-    // Calculs
     if (operateur == '+') {
         resultat = operant1 + operant2;
         printf("Le résultat de l'addition est: %.2f\n", resultat);
