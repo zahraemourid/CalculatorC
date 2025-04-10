@@ -3,13 +3,12 @@
 #include <stdlib.h>
 
 int main(int argc, const char * argv[]) {
-    //Variables
+
     char operateur;
     float operant1;
     float operant2;
     float resultat = 0.0;
     
-    // Entrées
     printf("Veuillez taper votre opération (par exemple: 1 + 2):\n");
     scanf("%f%c%f", &operant1, &operateur, &operant2);
     while (operateur != '+' && operateur != '-' && operateur != '*' && !(operateur == '/' && operant2 != 0)) {
